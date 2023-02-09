@@ -1,6 +1,6 @@
 # py-edtf
 
-Python package wrapping the `sfomuseum/go-edtf` WASM (WASI) binary for parsing Library of Congress Extended DateTime (EDTF) strings.
+Python package wrapping the `sfomuseum/go-edtf` WASM (WASI) binary for parsing Library of Congress Extended DateTime Format (EDTF) strings.
 
 ## Documentation
 
