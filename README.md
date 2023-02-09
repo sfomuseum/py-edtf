@@ -6,6 +6,12 @@ Python package wrapping the `sfomuseum/go-edtf` WASM (WASI) binary for parsing L
 
 Documentation is incomplete at this time.
 
+## Install
+
+```
+$> pip3 install --upgrade -r requirements.txt .
+```
+
 ## Example
 
 ```
