@@ -1,6 +1,6 @@
 # py-edtf
 
-Python package wrapping the `sfomuseum/go-edtf` WASM (WASI) binary for parsing Library of Congress Extended DateTime (EDTF) strings.
+Python package wrapping the `sfomuseum/go-edtf` WASM (WASI) binary for parsing Library of Congress Extended DateTime Format (EDTF) strings.
 
 ## Documentation
 
@@ -41,3 +41,7 @@ If `p.parse` is passed invalid an EDTF string it will raise an exception.
 
 * https://github.com/sfomuseum/go-edtf
 * https://github.com/sfomuseum/go-edtf-wasm#wasi
+
+* http://www.loc.gov/standards/datetime/
+* https://www.iso.org/standard/70907.html (ISO 8601-1:2019)
+* https://www.iso.org/standard/70908.html (ISO 8601-2:2019)
