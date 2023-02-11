@@ -21,7 +21,7 @@ def get_version():
 
 setup(
     name="edtf",
-    version="0.0.2",
+    version="0.0.3",
     description="Python package wrapping the `sfomuseum/go-edtf` WASM (WASI) binary for parsing Library of Congress Extended DateTime (EDTF) strings.",
     author="SFO Museum",
     license="Apache License, Version 2.0",

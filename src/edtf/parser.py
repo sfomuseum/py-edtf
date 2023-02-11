@@ -13,7 +13,6 @@ class Parser:
         wasm_bytes = pkg_data_file.read_bytes()
         
         store = Store(engine.JIT(Compiler))
-        
         module = Module(store, wasm_bytes)
         
         wasi_version = wasi.get_version(module, strict=True)

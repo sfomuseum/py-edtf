@@ -12,6 +12,12 @@ Documentation is incomplete at this time.
 $> pip3 install --upgrade -r requirements.txt .
 ```
 
+## Tests
+
+```
+$> python3 -m unittest discover tests/
+```
+
 ## Example
 
 ```
